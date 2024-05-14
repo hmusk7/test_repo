@@ -130,19 +130,19 @@
 - 다음과 같은 과정을 통해 삽입됨.
     1. Insert document 클릭
     
-    ![Untitled](%5BYoutube%5D%20Learn%20MongoDB%20in%201%20Hour%20%F0%9F%8D%83%20(2023)(1)%20-%20Br%2033905e86cbbd48b28a76bb05ea2c4f61/Untitled.png)
+    ![poster](./Untitled.png)
     
     1. 쉘에서 입력했던 것처럼 Document 입력
     
-    ![Untitled](%5BYoutube%5D%20Learn%20MongoDB%20in%201%20Hour%20%F0%9F%8D%83%20(2023)(1)%20-%20Br%2033905e86cbbd48b28a76bb05ea2c4f61/Untitled%201.png)
+    ![poster](./Untitled 1.png)
     
     1. 우측의 포맷화 버튼 클릭하여 포맷화한 후 삽입
     
-    ![Untitled](%5BYoutube%5D%20Learn%20MongoDB%20in%201%20Hour%20%F0%9F%8D%83%20(2023)(1)%20-%20Br%2033905e86cbbd48b28a76bb05ea2c4f61/Untitled%202.png)
+    ![poster](./Untitled 2.png)
     
     1. 여러 Document 를 입력하고 싶으면 쉘에서 입력했던 것처럼 입력 후, 포맷화하고 삽입
     
-    ![Untitled](%5BYoutube%5D%20Learn%20MongoDB%20in%201%20Hour%20%F0%9F%8D%83%20(2023)(1)%20-%20Br%2033905e86cbbd48b28a76bb05ea2c4f61/Untitled%203.png)
+    ![poster](./Untitled 3.png)
     
 
 ### MongoDB 의 기본 데이터 타입
@@ -195,4 +195,4 @@
     
     MongoDB Compass 를 들어가서 확인하면 이렇게 업데이트 되어있음.
     
-    ![Untitled](%5BYoutube%5D%20Learn%20MongoDB%20in%201%20Hour%20%F0%9F%8D%83%20(2023)(1)%20-%20Br%2033905e86cbbd48b28a76bb05ea2c4f61/Untitled%204.png)
+    ![poster](./Untitled 4.png)

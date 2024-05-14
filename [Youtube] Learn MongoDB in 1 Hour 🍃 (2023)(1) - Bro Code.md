@@ -130,19 +130,27 @@
 - 다음과 같은 과정을 통해 삽입됨.
     1. Insert document 클릭
     
-    ![poster](./1.png)
+    <p align="center">
+     <img src = "./1.png">
+    </p>
     
     1. 쉘에서 입력했던 것처럼 Document 입력
     
-    ![poster](./2.png)
+    <p align="center">
+     <img src = "./2.png">
+    </p>
     
     1. 우측의 포맷화 버튼 클릭하여 포맷화한 후 삽입
     
-    ![poster](./3.png)
+    <p align="center">
+     <img src = "./3.png">
+    </p>
     
     1. 여러 Document 를 입력하고 싶으면 쉘에서 입력했던 것처럼 입력 후, 포맷화하고 삽입
     
-    ![poster](./4.png)
+    <p align="center">
+     <img src = "./4.png">
+    </p>
     
 
 ### MongoDB 의 기본 데이터 타입
@@ -195,4 +203,6 @@
     
     MongoDB Compass 를 들어가서 확인하면 이렇게 업데이트 되어있음.
     
-    ![poster](./5.png)
+    <p align="center">
+     <img src = "./5.png">
+    </p>

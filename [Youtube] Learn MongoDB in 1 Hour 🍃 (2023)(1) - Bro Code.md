@@ -134,19 +134,19 @@
      <img src = "./1.png">
     </p>
     
-    1. 쉘에서 입력했던 것처럼 Document 입력
+    2. 쉘에서 입력했던 것처럼 Document 입력
     
     <p align="center">
      <img src = "./2.png">
     </p>
     
-    1. 우측의 포맷화 버튼 클릭하여 포맷화한 후 삽입
+    3. 우측의 포맷화 버튼 클릭하여 포맷화한 후 삽입
     
     <p align="center">
      <img src = "./3.png">
     </p>
     
-    1. 여러 Document 를 입력하고 싶으면 쉘에서 입력했던 것처럼 입력 후, 포맷화하고 삽입
+    4. 여러 Document 를 입력하고 싶으면 쉘에서 입력했던 것처럼 입력 후, 포맷화하고 삽입
     
     <p align="center">
      <img src = "./4.png">

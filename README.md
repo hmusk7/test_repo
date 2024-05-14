@@ -22,21 +22,3 @@ printf("Hello");
 
 ### Github Page
 <https://github.com/hmusk7/>
-
-240501 Contribution 추가
-
-240504 Contribution 추가
-
-240505 Contribution 추가
-
-240506 Contribution 추가
-
-240510 Contribution 추가
-
-240511 Contribution 추가
-
-240512 Contribution 추가
-
-240513 Contribution 추가
-
-240514 Contribution 추가

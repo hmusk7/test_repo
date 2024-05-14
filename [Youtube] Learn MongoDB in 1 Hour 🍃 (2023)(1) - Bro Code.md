@@ -134,7 +134,7 @@
     
     1. 쉘에서 입력했던 것처럼 Document 입력
     
-    ![poster]("./Untitled 1.png")
+    ![poster](./Untitled_1.png)
     
     1. 우측의 포맷화 버튼 클릭하여 포맷화한 후 삽입
     

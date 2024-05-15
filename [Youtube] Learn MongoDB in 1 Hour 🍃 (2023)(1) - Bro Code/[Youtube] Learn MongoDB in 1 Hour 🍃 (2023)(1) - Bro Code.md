@@ -177,7 +177,7 @@
     - 사용 예시: **`{courses: [”Biology”, “Chemistry”, “Calculus”]}`**
     - 현대의 프로그래밍 언어의 변수들은 대부분 하나 이상의 값을 가짐
     - MongoDB 에서는 필드가 Field 라는 데이터 타입으로 하나 이상의 값을 가질 수 있음
-    - '[ ]' 대괄호 안에 배열처럼 하나씩 값을 넣어줌
+    - [  ] 대괄호 안에 배열처럼 하나씩 값을 넣어줌
 - Nested documents
     - 사용 예시: **`{address: {street:”123 Fake St.”, city:”Bikini Bottom”, zip:12345}}`**
     - 주소를 표현하기에 좋음

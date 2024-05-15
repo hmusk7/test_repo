@@ -44,7 +44,7 @@
 - **`cls`**: 화면 정리
 - **`show dbs`**: 현재 서버의 모든 데이터베이스의 리스트를 보여줌.
 - **`use db명`**: 존재하는 DB를 사용하거나 존재하지 않으면 생성. 새로 생성된 DB는 show dbs 해도 비어있기 때문에 보이지 않음.
-- **`db.createCollections(”컬렉션 이름”)`**: DB 내에 컬렉션을 생성. 성공하면 **`{ ok: 1 }`** 을 반환함.
+- **`db.createCollections(”컬렉션명”)`**: DB 내에 컬렉션을 생성. 성공하면 **`{ ok: 1 }`** 을 반환함.
 - **`db.dropDatabase()`**: DB 를 드랍(제거).
 
 **MongoDB Compass**
@@ -60,10 +60,6 @@
     
     ```powershell
     school> db.students.insertOne({name:"Spongebob", age:30, gpa:3.2})
-    {
-      acknowledged: true,
-      insertedId: ObjectId('664332016436abff0d46b799')
-    }
     ```
     
 - **`db.컬렉션명.find()`**: 컬렉션 내에 존재하는 모든 Document 를 반환.
@@ -80,7 +76,7 @@
     ]
     ```
     
-- **`db.컬렉션명.insertMany([{Field:Value, Field:Value, …}, {Field:Value, Field:Value, …}, ... ])`**: 컬렉션에 여러 개의 Document 를 삽입함. ~~언어마다 다르지만,~~ 배열 기호 내부에 { } 들이 모두 Document 들이고, 이 Document 들이 컬렉션에 삽입됨. Field:Value 쌍은 항상 일관적일 필요는 없음. 즉, 모든 Document 가 일관된 Field 값들을 정해서 삽입할 필요가 없음.
+- **`db.컬렉션명.insertMany([{Field:Value, Field:Value, …}, {Field:Value, Field:Value, …}, ... ])`**: 컬렉션에 여러 개의 Document 를 삽입함. 배열 기호([   ]) 내부에 { } 들이 모두 Document 들이고, 이 Document 들이 컬렉션에 삽입됨. Field:Value 쌍은 항상 일관적일 필요는 없음. 즉, 모든 Document 가 일관된 Field 값들을 정해서 삽입할 필요가 없음.
     
     ```powershell
     school> db.students.insertMany([{name:"Patrick", age:38, gpa:1.5}, {name:"Sandy", age:27, gpa:4.0}, {name:"Gary", age:18, gpa:2.5}])
@@ -131,25 +127,25 @@
     1. Insert document 클릭
     
     <p align="center">
-     <img src = "./Image/1.png">
+     <img src = "./image/1.png">
     </p>
     
     2. 쉘에서 입력했던 것처럼 Document 입력
     
     <p align="center">
-     <img src = "./Image/2.png">
+     <img src = "./image/2.png">
     </p>
     
     3. 우측의 포맷화 버튼 클릭하여 포맷화한 후 삽입
     
     <p align="center">
-     <img src = "./Image/3.png">
+     <img src = "./image/3.png">
     </p>
     
     4. 여러 Document 를 입력하고 싶으면 쉘에서 입력했던 것처럼 입력 후, 포맷화하고 삽입
     
     <p align="center">
-     <img src = "./Image/4.png">
+     <img src = "./image/4.png">
     </p>
     
 
@@ -195,14 +191,10 @@
     ... address: {street:"123 Fake St.",
     ... city:"Bikini Bottom",
     ... zip:12345}})
-    {
-      acknowledged: true,
-      insertedId: ObjectId('66434835a4645d567946b79a')
-    }
     ```
     
     MongoDB Compass 를 들어가서 확인하면 이렇게 업데이트 되어있음.
     
     <p align="center">
-     <img src = "./Image/5.png">
+     <img src = "./image/5.png">
     </p>

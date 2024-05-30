@@ -1,0 +1,71 @@
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+#root {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* sign up */
+.signup_link {
+    text-align: center;
+    color: gray;
+    margin: 30px;
+}
+.SignUp .head h5 {
+    color: gray;
+    margin: 30px;
+}
+.SignUp {
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.whole {
+    margin: auto;
+    width: 25%;
+}
+
+p {
+    margin: 5px 0 0 0;
+    text-align: left;
+}
+
+/* 로그인 */
+.signup_link {
+    text-align: center;
+    color: gray;
+    margin: 30px;
+}
+
+.SignIn {
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SignIn .head {
+    text-align: center;
+}
+.SignIn .head h5 {
+    color: gray;
+    margin: 30px;
+}
+
+.email_textfield,
+.password_textfield,
+.submit_button {
+    text-align: center;
+    margin: 10px;
+}
+.submit_button {
+    padding: 20px;
+}

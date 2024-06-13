@@ -20,5 +20,5 @@
 printf("Hello");
 ```
 
-### Github Pagedfd
+### Github Page
 <https://github.com/hmusk7/>

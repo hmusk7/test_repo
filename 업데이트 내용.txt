@@ -3,4 +3,4 @@
 3. 채팅 방식 수정
 (1) socket room 이용 (클라이언트는 서버로부터 ChatRoom _id 받아서 join)
 (2) ChatSession 스키마 ChatRoom 으로 수정
-(3) 클라이언트 잠깐 접속 끊겼을 때 처리 socket 기능 이용하여 처리하도록 수정 xfasd
+(3) 클라이언트 잠깐 접속 끊겼을 때 처리 socket 기능 이용하여 처리하도록 수정
